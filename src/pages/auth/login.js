@@ -9,6 +9,7 @@ import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 
 import { useAuth } from "../../contexts/authContext";
 
+
 export const Login = () => {
   const location = useLocation();
 
