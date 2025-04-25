@@ -22,11 +22,16 @@ const AuthProvider = ({ children }) => {
         );
         setCurrUser(foundUser);
         setToken(encodedToken);
+        return true; // Indicate successful login
+      } else {
+        return false; // Indicate failed login
       }
     } catch (err) {
       console.log(err);
+      return false; // Indicate failed login
     }
   };
+  
 
   const logoutHandler = () => {
     localStorage.removeItem('loginItems');

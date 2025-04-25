@@ -13,8 +13,8 @@ export const Login = () => {
   const location = useLocation();
 
   const testUserData = {
-    username: "sanika3103",
-    password: "Sanika123",
+    username: "ayush123",
+    password: "ayush123",
   };
 
   const { loginHandler, token } = useAuth();
@@ -27,12 +27,16 @@ export const Login = () => {
   const [passwordIsVisible, setPasswordIsVisible] = useState(false);
 
   const navigate = useNavigate();
-
-  const handleUserLogin = (e) => {
-    toast.success('Successfully Logged In!');
+  const handleUserLogin = async (e) => {
     e.preventDefault();
-    loginHandler(loginData);
+    const success = await loginHandler(loginData);
+    if (success) {
+      toast.success('Successfully Logged In!');
+    } else {
+      toast.error('Wrong credentials');
+    }
   };
+  
 
   const togglePasswordVisibility = (e) => {
     setPasswordIsVisible(!passwordIsVisible);

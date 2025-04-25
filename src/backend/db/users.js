@@ -8,12 +8,13 @@ import { formatDate } from "../utils/authUtils";
 export const users = [
   {
     _id: uuid(),
-    firstName: "Sanika",
-    lastName: "Suryawanshi",
-    username: "sanika3103",
-    password: "Sanika123",
-    profileAvatar: "https://res.cloudinary.com/dnagcmyka/image/upload/v1687290002/Children_avatars_01Un_15_d8ahbg.jpg",
-    bio: "Hey! Sanika here",
+    firstName: "Ayush",
+    lastName: "Dobhal",
+    username: "ayush123",
+    password: "ayush123",
+    // profileAvatar: "https://res.cloudinary.com/dnagcmyka/image/upload/v1687290002/Children_avatars_01Un_15_d8ahbg.jpg",
+     profileAvatar: "https://res.cloudinary.com/dnagcmyka/image/upload/v1687290002/Children_avatars_01Un_15_d8ahbg.jpg",
+    bio: "Hey! Ayush here",
     website: "",
     bookmarks: [],
     followers: [
@@ -22,6 +23,8 @@ export const users = [
         firstName: "Emily",
         lastName: "Turner",
         username: "emily3103",
+        password: "ayush123",
+
         profileAvatar: "https://res.cloudinary.com/dnagcmyka/image/upload/v1687290014/39547_kmyvnn.jpg",
       },
       {
@@ -71,9 +74,9 @@ export const users = [
     followers: [
       {
         _id: uuid(),
-        firstName: "Sanika",
-        lastName: "Suryawanshi",
-        username: "sanika3103",
+        firstName: "ayush",
+        lastName: "dobhal",
+        username: "ayush123",
         profileAvatar: "https://res.cloudinary.com/dnagcmyka/image/upload/v1687290002/Children_avatars_01Un_15_d8ahbg.jpg",
       },
       {
@@ -130,9 +133,9 @@ export const users = [
       },
       {
         _id: uuid(),
-        firstName: "Sanika",
-        lastName: "Suryawanshi",
-        username: "sanika3103",
+        firstName: "ayush",
+        lastName: "dobhal",
+        username: "ayush123",
         profileAvatar: "https://res.cloudinary.com/dnagcmyka/image/upload/v1687290002/Children_avatars_01Un_15_d8ahbg.jpg",
       },
       {
@@ -198,9 +201,9 @@ export const users = [
     following: [
       {
         _id: uuid(),
-        firstName: "Sanika",
-        lastName: "Suryawanshi",
-        username: "sanika3103",
+        firstName: "ayush",
+        lastName: "dobhal",
+        username: "ayush123",
         profileAvatar: "https://res.cloudinary.com/dnagcmyka/image/upload/v1687290002/Children_avatars_01Un_15_d8ahbg.jpg",
       },
       {
@@ -257,9 +260,9 @@ export const users = [
       },
       {
         _id: uuid(),
-        firstName: "Sanika",
-        lastName: "Suryawanshi",
-        username: "sanika3103",
+        firstName: "ayush",
+        lastName: "dobhal",
+        username: "ayush123",
         profileAvatar: "https://res.cloudinary.com/dnagcmyka/image/upload/v1687290002/Children_avatars_01Un_15_d8ahbg.jpg",
       },
     ],
@@ -397,9 +400,9 @@ export const users = [
       },
       {
         _id: uuid(),
-        firstName: "Sanika",
-        lastName: "Suryawanshi",
-        username: "sanika3103",
+        firstName: "ayush",
+        lastName: "dobhal",
+        username: "ayush123",
         profileAvatar: "https://res.cloudinary.com/dnagcmyka/image/upload/v1687290002/Children_avatars_01Un_15_d8ahbg.jpg",
       },
     ],

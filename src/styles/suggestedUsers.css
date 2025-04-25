@@ -11,6 +11,7 @@
     border-radius: 0.5rem;
     max-height: 74vh;
     overflow-y: auto;
+   
 }
 
 #s-users-container::-webkit-scrollbar-thumb {
@@ -102,4 +103,30 @@
 
 .dark {
     color:  rgb(109, 106, 106);
+}
+
+/* Responsive Design for Small Devices */
+@media screen and (max-width: 768px) {
+    .right-container {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    #search-bar {
+        width: 90%;
+        padding: 0.8rem 1rem;
+        z-index: 2000;
+        position: fixed;
+        margin-top: -2070px;
+    }
+    #s-users-container{
+        margin-top: -1600px;
+    }
+
+    #s-users-container, #searched-users-container {
+        width: 80%;
+        margin-right: 0;
+         
+    }
+    
 }

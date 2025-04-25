@@ -1,13 +1,14 @@
 .bookmarks-page {
-    display: flex;
+  display: flex;
+  flex-direction: row;
 }
 
 .bookmarks-container {
-    width: 47%;
-    height: 100vh;
-    overflow-y: auto;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+  width: 47%;
+  height: 100vh;
+  overflow-y: auto;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
 .bookmarks-container::-webkit-scrollbar {
@@ -19,6 +20,20 @@
 }
 
 .center {
-    text-align: center;
-    margin-top: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Responsive adjustments for screens 768px and below */
+@media (max-width: 768px) {
+  .bookmarks-page {
+    flex-direction: column;
+  }
+
+  .bookmarks-container {
+    width: 100%;
+    height: 100dvh; /* Uses dynamic viewport height for better mobile compatibility */
+    border-left: none;
+    border-right: none;
+  }
 }
